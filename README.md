@@ -27,9 +27,18 @@ The script runs an **infinite loop**, performing two main tasks:
 ## **⚙️ Installation & Setup**  
 Follow these steps to clone and run the network sniffer:  
 
+### **1️⃣ Clone the Repository**
+git clone https://github.com/Dominion002/Network-Sniffer.git
+cd network-sniffer
+
 Install dependencies
 pip install scapy psutil
 
 Instal Npcap For windows users
 https://npcap.com
+
+🚀 Running the Network Sniffer
+Run the script with Administrator Privileges for proper packet sniffing:
+cd path\to\network-sniffer
+python packet_sniffer.py
 
